@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A better, multi-mode, non-spamming poll bot for telegram.",
   "main": "src/main.js",
-  "repository": "https://github.com/LeartS/better-poll-bot",
+  "repository": "https://github.com/LeartS/better-telegram-poll-bot",
   "author": "Leonardo Donelli",
   "license": "GPL-3.0",
   "scripts": {
