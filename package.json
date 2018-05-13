@@ -1,0 +1,26 @@
+{
+  "name": "BetterPollBot",
+  "version": "1.0.0",
+  "description": "A better, multi-mode, non-spamming poll bot for telegram.",
+  "main": "src/main.js",
+  "repository": "https://github.com/LeartS/better-poll-bot",
+  "author": "Leonardo Donelli",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "bands": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "rethinkdb": "^2.3.3",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/node-telegram-bot-api": "^0.28.3",
+    "@types/rethinkdb": "^2.3.11",
+    "ts-node": "^6.0.3"
+  }
+}

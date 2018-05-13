@@ -1,0 +1,14 @@
+# Secret stuff
+.env
+
+# Built stuff
+dist/
+
+# Node stuff
+node_modules/
+
+# Editors stuff
+.vscode/
+
+# Plumbing stuff
+ngrok.yml
